@@ -36,7 +36,7 @@ L.geoJson(sanFranAirport, {
   //L.geoJson(data, {
     onEachFeature: function(feature, layer) {
       console.log(layer);
-      layer.bindPopup();
+      layer.bindPopup("<h3>Airport Code: " + feature.properties.faa + "<hr> Airport Name: " + feature.properties.name + "</h3>");
      }
 
   // We turn each feature into a marker on the map.

@@ -1,14 +1,10 @@
 # Mapping_Earthquakes
 Unit 13 - Visualizing Earthquakes
 
-The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.
+The purpose of this project is to visually show the differences between the magnitudes of earthquakes, tectonic plates, and major earthquakes all over the world for the last seven days.   
 
-To complete this project, use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
+Using JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data.   Leaflet library was then utilized to plot the data on a Mapbox map through an API request and interactivity was created for the earthquake data.
 
-Approach
-Your approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
-
-Now that you have an overview of the project plan, let's set up a Mapbox account and get the API token you'll need to create geographical maps.
-
-
-Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
+The map is interactive in that is has a D3.js layer for earthquakes, tectonic plates as well as major earthquakes.    The interactivity continues with three visual layers:  streets, satellites, and dark.
+![image](https://user-images.githubusercontent.com/78219007/118421263-0cb11b00-b67e-11eb-8adb-6c029718530e.png)
+   

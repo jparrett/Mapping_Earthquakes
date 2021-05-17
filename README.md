@@ -8,5 +8,5 @@ Using JavaScript and the D3.js library to retrieve the coordinates and magnitude
 The map is interactive in that is has a D3.js layer for earthquakes, tectonic plates as well as major earthquakes.    The interactivity continues with three visual layers:  streets, satellites, and dark.
 
 
-<img src="/Mapping_Earthquakes/Mapping_GeoJSON_Data.png" width="600"> [Mapping_GeoJSON_Data.png](/Mapping_Earthquakes/Mapping_GeoJSON_Data.png)
+<img src="/Earthquake_Challenge/Mapping_GeoJSON_Data.png" width="600"> [Mapping_GeoJSON_Data.png](/Earthquake_Challenge/Mapping_GeoJSON_Data.png)
    
